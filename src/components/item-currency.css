@@ -1,0 +1,37 @@
+.container-item-currency {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    background: white;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.container-value {
+    display: grid;
+    grid-template-columns: 40% 60%
+}
+
+.code {
+
+}
+
+.number {
+    display: grid;
+    justify-content: end;
+}
+
+.item-currency {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.base-currency {
+    font-size: 0.8rem
+}
+
+.close {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
